@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-class Average {
+class Avg {
     double avg = 0;
     int n[] = new int[5];
 
@@ -29,7 +29,7 @@ class Average {
 
 public class Average {
     public static void main(String[] args) {
-        Average ca = new Average();
+        Avg ca = new Avg();
         ca.get_input();
         ca.display();
     }
