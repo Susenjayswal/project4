@@ -1,10 +1,8 @@
-package Assignment_6;
+
 import java.util.Scanner;
-class cal_average
-{
-	Scanner s=new Scanner(System.in);
+class Average
 	double avg=0;
-	int n[]=new int[5];
+	int n[]=[5,6,7,8,9];
 	void get_input()
 	{
 		try {
