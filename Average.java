@@ -27,7 +27,7 @@ class Average {
     }
 }
 
-public class Main {
+public class Average {
     public static void main(String[] args) {
         Average ca = new Average();
         ca.get_input();
