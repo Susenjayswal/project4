@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-class Average
+class Average{
 	double avg=0;
 	int n[]=[5,6,7,8,9];
 	void get_input()
