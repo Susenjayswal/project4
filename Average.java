@@ -2,7 +2,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 class Avg {
-    double avg = 0;
+    double av = 0;
     int n[] = new int[5];
 
     void get_input() {
@@ -22,8 +22,8 @@ class Avg {
         for (int j = 0; j < 5; j++) {
             sum += n[j];
         }
-        avg = sum / 5.0;
-        System.out.println("Average of given 5 numbers -- " + avg);
+        av = sum / 5.0;
+        System.out.println("Average of given 5 numbers -- " + av);
     }
 }
 
